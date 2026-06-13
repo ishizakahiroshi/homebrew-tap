@@ -4,18 +4,18 @@ cask "many-ai-cli" do
 
   on_macos do
     on_intel do
-      sha256 "52255a1d5bce0bba4a1dbf37a8265a3da6490766273d5d384842df3b6f4e91f3"
+      sha256 "deb0a8d786939c98f4e752743be0f83cdebd55281ebc4986dd28d09daee881ae"
       url "https://github.com/ishizakahiroshi/many-ai-cli/releases/download/v#{version}/many-ai-cli-#{version}-macos-intel.zip"
     end
     on_arm do
-      sha256 "9ce64ae1694c821dcd1707624e849d4456bfb2f97df498aa6d0292e8fe7549e8"
+      sha256 "4186fb913950b3877bfadeb411d7fe7a49eaeae7906780277c6258b43c22de94"
       url "https://github.com/ishizakahiroshi/many-ai-cli/releases/download/v#{version}/many-ai-cli-#{version}-macos-apple-silicon.zip"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "ffb90784b6ea4e52d7edcf43021c78cbb23e356df7a276ae0c89c60d931c2735"
+      sha256 "61d7245d592a6387c275326dbc383102e56ec69fefd8e400368a946871b01f6c"
       url "https://github.com/ishizakahiroshi/many-ai-cli/releases/download/v#{version}/many-ai-cli-#{version}-linux-x64.zip"
     end
   end
